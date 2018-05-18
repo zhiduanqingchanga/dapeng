@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xmlns为命名空间
+orientation：定义内组件纵向排列
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="日期:"
+
+            android:layout_alignParentLeft="true"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:entries="@array/dateTime"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="显示："/>
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:entries="@array/valType"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="温室大棚空气温度曲线展示："
+        />
+
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/line_chart"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"/>
+
+
+</LinearLayout>

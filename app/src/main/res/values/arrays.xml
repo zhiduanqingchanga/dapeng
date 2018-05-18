@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name ="dateTime">
+     <item>2017/12</item>
+        <item>2018/1</item>
+        <item>2018/2</item>
+        <item>2018/3</item>
+
+    </string-array>
+
+    <string-array name ="valType">
+        <item>最大值</item>
+        <item>平均值</item>
+        <item>最小值</item>
+
+    </string-array>
+
+</resources>

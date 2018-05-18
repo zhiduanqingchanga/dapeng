@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MySecond Application</string>
+    <string name="username">用户名:</string>
+    <string name="password">密码：</string>
+    <string name="login">登陆</string>
+    <string name="uname">请输入您的名字</string>
+    <string name="passw">请输入您的密码</string>
+    <string name="viewdate">查询数据</string>
+
+    <string name="historicaldatadisplay">数据曲线展示</string>
+    <string name="viewData">点击查询数据</string>
+    <string name="query">历史数据的查询与展示</string>
+    <string name="choice">请选择:</string>
+    <string name="jiance">检查数据是否正常</string>
+    <string name="start">播放</string>
+    <string name="stop">停止</string>
+
+
+</resources>
